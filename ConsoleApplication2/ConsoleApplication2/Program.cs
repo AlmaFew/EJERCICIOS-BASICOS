@@ -10,6 +10,11 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
-        }
+            contenido = vial.ReadAllText(fichero);
+            string[] lineas = contenido.Split(Environment.NewLine);
+            foreach (string linea in lineas)
+            {
+                Console.WriteLine(linea);
+            }
     }
 }

@@ -27,8 +27,7 @@ namespace ConsoleApplication1
             lado = float.Parse(Console.ReadLine());
             float areac = lado * lado;
             float perimetroc = lado + lado + lado + lado;
-            Console.WriteLine("El área del cuadrado es: " + areac.ToString("f2") +
-            " y el perímetro es: " + perimetroc.ToString("F2"));
+            Console.WriteLine("El área del cuadrado es: { 0 }, y el perímetro es: { 1 }" ,areac,perimetroc);
             Console.Write("Presione enter para continuar");
             Console.ReadLine();
             Console.Write("Ingrese la base del triángulo equilátero: ");
